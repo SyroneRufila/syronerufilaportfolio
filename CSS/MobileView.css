@@ -1,0 +1,163 @@
+@media (max-width: 768px) {
+  .image-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+  }
+
+  .image-gallery .image-box:nth-child(7n + 1) {
+    grid-column: unset;
+    grid-row: unset;
+  }
+  .sub .image img {
+    height: 400px;
+    width: 100%;
+    margin-right: 5%;
+  }
+  .sub .image {
+    margin-right: 5%;
+  }
+  .project{
+    height: auto;
+  }
+  
+ 
+}
+@media (max-width: 700px) {
+  .about .text p {
+    background-color: #0e0d0d;
+    color: white;
+  }
+  .home .name h3 {
+    font-size: 100px;
+  }
+  .home .name p {
+    font-size: 30px;
+  }
+  html {
+    font-size: 55%;
+  }
+  body.active {
+    padding-left: 0;
+  }
+  .profile .left-info .text-1 h3 {
+    margin-right: 0;
+  }
+  .profile .left-info .text-2 h3 {
+    margin-right: 0;
+  }
+  .header.active {
+    z-index: 1;
+  }
+  .about .text p {
+    padding: 0%;
+    margin-right: 0%;
+  }
+  .about .text{
+    margin: 0%;
+    padding: 0%;
+  }
+  .about .text span {
+    padding: 0%;
+    margin: 20px;
+  }
+  .about .image img {
+    height: 500px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .profile .achievements h3 {
+    font-size: 15px;
+  }
+  .skills {
+    width: 100%;
+    max-width: 8000px;
+  }
+  .profile .education h3{
+    font-size: 80px;
+  }
+  .profile .line .icons  p{
+    background-color: transparent;
+  }
+  .profile .line .icons .text3 p{
+    text-align: left;
+  }
+  .project h2{
+    font-size: 60px;
+  }
+  .sub .image img {
+    height: 400px;
+    width: 100%;
+    margin-right: 5%;
+  }
+
+ 
+  
+ 
+}
+@media (max-width: 500px) {
+  .profile .achievements h3 {
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .profile p {
+    margin: 0%;
+    background-color: black;
+  }
+  .profile .education h3{
+    font-size: 70px;
+  }
+  .profile .text{
+    margin-right: 5%;
+  }
+  .DLMS .text h2{
+    font-size: 30px;
+  }
+  .sub .image h3{
+    font-size: 25px;
+    padding-top: 5%;
+  }
+  .sub .text h2{
+    font-size: 30px;
+    padding-bottom: 10%;
+  }
+
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50;
+  }
+  .header.active {
+    padding-top: 70px;
+  }
+  #menu-btn.fa-times {
+    right: 0;
+  }
+  .profile h3{
+    font-size: 50px;
+  }
+  .profile .education h3{
+    font-size: 50px;
+    margin-right: 3%;
+  }
+  .profile .line .icons .text3 p{
+    font-size: 15px;
+  }
+  .profile .line .icons .text2 p{
+    font-size: 15px;
+  }
+  .profile .line .icons .text1 p{
+    font-size: 15px;
+  }
+  .profile .text h2{
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 280px) {
+  .header.active {
+    height: 100%;
+    width: 100%;
+  }
+}
