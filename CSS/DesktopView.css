@@ -348,7 +348,7 @@ section {
 .profile .text {
   background-color: #57675c;
   width: 480px;
-  margin-left: 4%;
+  margin-left: 5%;
   margin-bottom: 5%;
   border: 5px solid white;
   border-radius: 2%;
@@ -406,7 +406,7 @@ section {
 .profile .line .icons .text3 p {
   margin: 0%;
   margin-left: 5%;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* PROJECT */
