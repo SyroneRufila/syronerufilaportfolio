@@ -19,6 +19,9 @@
   .project{
     height: auto;
   }
+   .project .text{
+    height: auto;
+  }
   
   
 
