@@ -157,6 +157,10 @@
   }
 
 }
+@media (max-width: 350px) {
+  ..profile .line .icons p {
+    font-size: 10px;
+  }
 
 @media (max-width: 280px) {
   .header.active {
