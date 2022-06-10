@@ -89,8 +89,8 @@
     width: 100%;
     margin-right: 5%;
   }
-   .profile h3{
-    font-size: 40px;
+  .profile h3{
+    font-size: 50px;
   }
 
  
@@ -107,6 +107,7 @@
     margin: 0%;
     background-color: black;
   }
+ 
   .profile .education h3{
     font-size: 70px;
   }
@@ -157,11 +158,29 @@
   }
 
 }
-@media (max-width: 350px) {
-  ..profile .line .icons p {
+@media (max-width: 350px){
+  .profile .line .icons .text3 p{
     font-size: 10px;
   }
-
+  .profile .line .icons .text2 p{
+    font-size: 10px;
+  }
+  .profile .line .icons .text1 p{
+    font-size: 10px;
+  }
+  .profile h3{
+    font-size: 30px;
+  }
+  .profile .line .icons i{
+    font-size: 13px;
+  }
+  .profile .text{
+    height: 35vh;
+  }
+  .profile .line{
+    height: 230px;
+  }
+}
 @media (max-width: 280px) {
   .header.active {
     height: 100%;
